@@ -1,0 +1,351 @@
+
+
+"use client";
+
+import { Download } from "lucide-react";
+import { useRef } from "react";
+
+const ContainerDemoPage = () => {
+  const resumeRef = useRef<HTMLDivElement>(null);
+
+  const downloadPDF = () => {
+    window.print();
+  };
+
+  return (
+    <main className="min-h-screen bg-background text-foreground">
+      {/* Download Button */}
+      <div className="fixed top-4 right-4 z-50 print:hidden">
+        <button
+          onClick={downloadPDF}
+          className="flex items-center gap-2 bg-primary text-black px-4 py-2 rounded-lg hover:bg-secondary/90 transition-colors shadow-lg"
+        >
+          <Download className="w-4 h-4" />
+          Download PDF
+        </button>
+      </div>
+
+      {/* A4 Page Container */}
+      <div
+        ref={resumeRef}
+        className="mx-auto max-w-4xl bg-white p-8 shadow-lg print:shadow-none print:p-0 print:m-0 mt-16 print:mt-0"
+        style={{ height: "11in" }}
+      >
+        {/* Header */}
+        <div className="mb-4 pb-3 border-b-2 border-primary">
+          <div className="flex justify-between items-start">
+            <div>
+              <h1 className="text-3xl font-bold text-primary">
+                MD. ATIKUR RAHMAN
+              </h1>
+              <p className="text-base text-muted-foreground font-medium">
+                Full-Stack Developer
+              </p>
+            </div>
+            <div className="text-right text-xs space-y-0.5">
+              <p className="font-medium">Mirpur-6 Dhaka, Bangladesh</p>
+              <p> +880 179 183 5039 | +880 1518474541</p>
+              <p>atiqurrahman.cse2552@gmail.com</p>
+              <div className="flex justify-end gap-3 text-primary text-xs">
+                <a href="#" className="hover:underline">
+                  LinkedIn
+                </a>
+                <a href="#" className="hover:underline">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Professional Objective */}
+        <section className="mb-3">
+          <h2 className="text-lg font-bold text-primary mb-1">
+            Professional Objective
+          </h2>
+          <p className="text-xs text-muted-foreground leading-tight">
+            Results-driven software developer with strong experience in modern
+            frontend and backend technologies. Skilled in building scalable,
+            secure, and user-focused web applications with hands-on experience
+            in API development, database design, and cloud deployment. Seeking
+            to contribute technical expertise to a growth-oriented development
+            team.
+          </p>
+        </section>
+
+        {/* Skills Section */}
+        <section className="mb-3">
+          <h2 className="text-lg font-bold text-primary mb-2">Skills</h2>
+
+          <div className="grid grid-cols-2 gap-3 text-xs">
+            <div>
+              <span className="font-bold text-foreground">Frontend:</span>
+              <p className="text-muted-foreground">
+                JavaScript, React.js, Next.js, Tailwind CSS, shadcn/ui
+                ,Bootstrap,Daisyui, Material UI
+              </p>
+            </div>
+            <div>
+              <span className="font-bold text-foreground">Backend:</span>
+              <p className="text-muted-foreground">
+                Node.js,Express js, Python, Django, REST APIs
+              </p>
+            </div>
+            <div>
+              <span className="font-bold text-foreground">Database:</span>
+              <p className="text-muted-foreground">
+                MongoDB, MySQL, PostgreSQL
+              </p>
+            </div>
+            <div>
+              <span className="font-bold text-foreground">DevOps & Tools:</span>
+              <p className="text-muted-foreground">
+                Docker, AWS, Git, GitHub Actions Firebase, Git, Figma, Netlify,
+                Vercel
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Professional Experience */}
+        <section className="mb-3">
+          <h2 className="text-lg font-bold text-primary mb-2">
+            Professional Experience
+          </h2>
+
+          <div className="space-y-1">
+            <div className="border-l-4 border-primary pl-3">
+              <div className="flex justify-between items-start">
+                <div>
+                  <h3 className="font-bold text-sm text-foreground">
+                    Full-Stack Developer
+                  </h3>
+                  <p className="text-primary font-medium text-xs">
+                    Arbree Limited
+                  </p>
+                </div>
+                <span className="text-xs text-muted-foreground bg-muted px-2 py-0.5 rounded">
+                  05/2023 – Present
+                </span>
+              </div>
+              <p className="text-xs text-muted-foreground">
+                Mirpur DHOS ,Dhaka
+                {/* Building scalable full-stack web applications using modern technologies. */}
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Projects */}
+        <section className="mb-3">
+          <h2 className="text-lg font-bold text-primary mb-2">Projects</h2>
+
+          <div className="space-y-1.5">
+            {/* Project 1: EducateU */}
+
+            <div className=" border-accent pl-3">
+              <div className="flex justify-between items-start">
+                <div>
+                  <h3 className="font-bold text-sm text-foreground">EducatU</h3>
+                  <p className="text-xs text-muted-foreground">
+                    E-Learning Platform
+                  </p>
+                </div>
+                {/* <a 
+                  href="http://35.179.130.168:5000/" 
+                  className="text-accent font-medium text-xs hover:underline"
+                >
+                  Live →
+                </a> */}
+              </div>
+              <p className="text-xs text-muted-foreground">
+                Led frontend development team overseeing UI implementation and
+                component architecture for online course management.
+              </p>
+              {/* <div className="flex flex-wrap gap-2">
+                <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Next.js</span>
+                <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">MongoDB</span>
+                <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Firebase</span>
+                <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded">Payment Gateway</span>
+                </div> */}
+            </div>
+
+            {/* Project 2: Church Management */}
+            <div className=" border-accent pl-3">
+              <div className="flex justify-between items-start">
+                <div>
+                  <h3 className="font-bold text-sm text-foreground">
+                    Church Management System
+                  </h3>
+                  <p className="text-xs text-muted-foreground">
+                    Website & Admin Dashboard
+                  </p>
+                </div>
+                <a
+                  href="https://rccgjesushouse.ca/"
+                  className="text-blue-400 font-medium text-xs hover:underline"
+                >
+                  Live →
+                </a>
+              </div>
+              <p className="text-xs text-muted-foreground">
+                Public website and admin dashboard with member management,
+                authentication, and role-based access control.
+              </p>
+            </div>
+
+            {/* Project 3: Aamar Pharma */}
+            <div className=" border-accent pl-3">
+              <div className="flex justify-between items-start">
+                <div>
+                  <h3 className="font-bold text-sm text-foreground">
+                    Aamar Pharma
+                  </h3>
+                  <p className="text-xs text-muted-foreground">
+                    Online Pharmacy Platform
+                  </p>
+                </div>
+                {/* <a 
+                  href="#" 
+                  className="text-accent font-medium text-xs hover:underline"
+                >
+                  Live →
+                </a> */}
+              </div>
+              <p className="text-xs text-muted-foreground">
+                Next.js, MongoDB, Firebase platform with Aamar Pay integration
+                and admin inventory management.
+              </p>
+            </div>
+
+            {/* Project 4: Ebook Application */}
+            <div className=" border-accent pl-3">
+              <div className="flex justify-between items-start">
+                <div>
+                  <h3 className="font-bold text-sm text-foreground">
+                    Ebook Application
+                  </h3>
+                  <p className="text-xs text-muted-foreground">
+                    Android eBook Platform
+                  </p>
+                </div>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.alokdhara"
+                  className="text-blue-400 font-medium text-xs hover:underline"
+                >
+                  Live →
+                </a>
+              </div>
+              <p className="text-xs text-muted-foreground">
+                Backend-focused Android application with secure APIs, content
+                management, and optimized data delivery.
+              </p>
+            </div>
+
+            {/* Project 5: Sportigy */}
+            <div className=" border-accent pl-3">
+              <div className="flex justify-between items-start">
+                <div>
+                  <h3 className="font-bold text-sm text-foreground">
+                    Sportigy
+                  </h3>
+                  <p className="text-xs text-muted-foreground">
+                    Cricket Enthusiast Platform
+                  </p>
+                </div>
+                {/* <a 
+                  href="#" 
+                  className="text-accent font-medium text-xs hover:underline"
+                >
+                  Live →
+                </a> */}
+              </div>
+              <p className="text-xs text-muted-foreground">
+                React.js platform with live scores, real-time updates, and
+                community features for cricket enthusiasts.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Education */}
+        <section className="mb-3">
+          <h2 className="text-lg font-bold text-primary mb-2">Education</h2>
+
+          <div className="space-y-1 ">
+            <div className=" border-primary pl-3">
+              <div className="flex justify-between items-start">
+                <div className="">
+                  <h4 className="font-bold text-sm text-foreground">
+                    Bachelor of Science in Computer Science and Engineering
+                  </h4>
+                  <div className="flex gap-2">
+                    <p className="text-primary font-medium text-xs">
+                      Institute: Mohammadpur Kendriya College,
+                    </p>
+                    <p className="text-xs text-muted-foreground">
+                      Mohammdapur,Dhaka, Bangladesh
+                    </p>
+                  </div>
+                </div>
+                <span className="text-xs text-muted-foreground bg-muted px-2 py-0.5 rounded">
+                  2024
+                </span>
+              </div>
+            </div>
+            <div className=" border-primary pl-3 mt-2">
+              <div className="flex justify-between items-start">
+                <div>
+                  <h4 className="font-bold text-sm text-foreground">
+                    Higher Secondary School Certificate:(HSC) Science
+                  </h4>
+                  <div className="flex gap-2">
+                    <p className="text-primary font-medium text-xs">
+                      Institute : Sapahar govt college
+                    </p>
+                    <p className="text-xs text-muted-foreground">
+                      Sapahar, Naogaon,Bangladesh
+                    </p>
+                  </div>
+                </div>
+                <span className="text-xs text-muted-foreground bg-muted px-2 py-0.5 rounded">
+                  2017
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Languages */}
+        {/* <section className="mb-3">
+          <h2 className="text-lg font-bold text-primary mb-2">
+            Languages
+          </h2>
+          
+          <div className="flex gap-5 text-xs space-y-1">
+            <p><span className="font-bold text-foreground">Bangla:</span> <span className="text-muted-foreground">Native</span></p>
+            <p><span className="font-bold text-foreground">English:</span> <span className="text-muted-foreground">Professional</span></p>
+          </div>
+        </section> */}
+      </div>
+      <style jsx global>{`
+        @media print {
+          header,
+          footer {
+            display: none;
+          }
+        }
+        @media print {
+          body {
+            background: white;
+          }
+          .print\\:shadow-none {
+            box-shadow: none !important;
+          }
+        }
+      `}</style>
+    </main>
+  );
+};
+
+export default ContainerDemoPage;

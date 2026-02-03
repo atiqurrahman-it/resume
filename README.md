@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Resume / Portfolio Project – MD. Atikur Rahman
 
-## Getting Started
+A modern personal resume and portfolio project showcasing professional experience, technical skills, and real-world projects. Built to present a clear overview of my background as a **Full-Stack Developer**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 👤 About Me
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**MD. ATIKUR RAHMAN**  
+**Full-Stack Developer**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📍 Mirpur-6, Dhaka, Bangladesh  
+📞 +880 179 183 5039 | +880 1518 474541  
+📧 atiqurrahman.cse2552@gmail.com  
+🔗 LinkedIn | GitHub  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎯 Professional Objective
 
-To learn more about Next.js, take a look at the following resources:
+Results-driven software developer with strong experience in modern frontend and backend technologies. Skilled in building scalable, secure, and user-focused web applications with hands-on experience in API development, database design, and cloud deployment. Seeking to contribute technical expertise to a growth-oriented development team.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Skills
 
-## Deploy on Vercel
+### Frontend
+- JavaScript  
+- React.js  
+- Next.js  
+- Tailwind CSS  
+- shadcn/ui  
+- Bootstrap  
+- DaisyUI  
+- Material UI  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Backend
+- Node.js  
+- Express.js  
+- Python  
+- Django  
+- REST APIs  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Database
+- MongoDB  
+- MySQL  
+- PostgreSQL  
+
+### DevOps & Tools
+- Docker  
+- AWS  
+- Git & GitHub  
+- GitHub Actions  
+- Firebase  
+- Figma  
+- Netlify  
+- Vercel  
+
+---
+
+## 💼 Professional Experience
+
+### Full-Stack Developer  
+**Arbree Limited**  
+📍 Mirpur DOHS, Dhaka  
+🗓️ 05/2023 – Present  
+
+Working on designing, developing, and maintaining scalable web applications using modern frontend and backend technologies.
+
+---
+
+## 🚀 Projects
+
+### EducatU – E-Learning Platform
+Led the frontend development team, overseeing UI implementation, component architecture, and user experience for online course management.
+
+---
+
+### Church Management System  
+**Website & Admin Dashboard**  
+🔗 Live Available  
+
+Developed a public website and admin dashboard featuring member management, authentication, and role-based access control.
+
+---
+
+### Aamar Pharma – Online Pharmacy Platform  
+Built using Next.js, MongoDB, and Firebase with Aamar Pay payment integration and a complete admin inventory management system.
+
+---
+
+### Ebook Application – Android eBook Platform  
+🔗 Live Available  
+
+Backend-focused Android application featuring secure APIs, content management, and optimized data delivery.
+
+---
+
+### Sportigy – Cricket Enthusiast Platform  
+React.js-based platform with live scores, real-time updates, and community features for cricket enthusiasts.
+
+---
+
+## 🎓 Education
+
+### Bachelor of Science in Computer Science and Engineering (BSc)
+**Institute:** Mohammadpur Kendriya College  
+📍 Mohammadpur, Dhaka, Bangladesh  
+🗓️ 2024  
+
+---
+
+### Higher Secondary Certificate (HSC) – Science
+**Institute:** Sapahar Government College  
+📍 Sapahar, Naogaon, Bangladesh  
+
+---
+
+## 📌 Purpose of This Repository
+
+This repository serves as a professional showcase of my skills, experience, and projects for recruiters, collaborators, and clients.
+
+---
+
+## 📜 License
+
+This project is open for personal and educational reference.
