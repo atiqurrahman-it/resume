@@ -47,10 +47,10 @@ const ContainerDemoPage = () => {
               <p> +880 179 183 5039 | +880 1518474541</p>
               <p>atiqurrahman.cse2552@gmail.com</p>
               <div className="flex justify-end gap-3 text-primary text-xs">
-                <a href="#" className="hover:underline">
+                <a href="https://www.linkedin.com/in/atiqur-cse/" target="_blank" className="hover:underline">
                   LinkedIn
                 </a>
-                <a href="#" className="hover:underline">
+                <a href="https://github.com/atiqurrahman-it" target="_blank" className="hover:underline">
                   GitHub
                 </a>
               </div>
@@ -64,12 +64,7 @@ const ContainerDemoPage = () => {
             Professional Objective
           </h2>
           <p className="text-xs text-muted-foreground leading-tight">
-            Results-driven software developer with strong experience in modern
-            frontend and backend technologies. Skilled in building scalable,
-            secure, and user-focused web applications with hands-on experience
-            in API development, database design, and cloud deployment. Seeking
-            to contribute technical expertise to a growth-oriented development
-            team.
+            Mid-Level Full-Stack Developer with about 3 years of experience building scalable web applications, leading frontend teams, and delivering secure, high-performance solutions using modern JavaScript frameworks, robust backend APIs, and cloud-based tools. Skilled at translating business requirements into clean, maintainable, production-ready code.
           </p>
         </section>
 
@@ -79,16 +74,21 @@ const ContainerDemoPage = () => {
 
           <div className="grid grid-cols-2 gap-3 text-xs">
             <div>
+              <span className="font-bold text-foreground">Languages & Frameworks:</span>
+              <p className="text-muted-foreground">
+                JavaScript, Python, Next js ,Express js, Django
+              </p>
+            </div>
+            <div>
               <span className="font-bold text-foreground">Frontend:</span>
               <p className="text-muted-foreground">
-                JavaScript, React.js, Next.js, Tailwind CSS, shadcn/ui
-                ,Bootstrap,Daisyui, Material UI
+                 React.js, Next.js, Tailwind CSS, shadcn/ui,Daisyui,Bootstrap, Material UI, Ant Design 
               </p>
             </div>
             <div>
               <span className="font-bold text-foreground">Backend:</span>
               <p className="text-muted-foreground">
-                Node.js,Express js, Python, Django, REST APIs
+                Node.js,Express js, Python, Django
               </p>
             </div>
             <div>
@@ -100,10 +100,12 @@ const ContainerDemoPage = () => {
             <div>
               <span className="font-bold text-foreground">DevOps & Tools:</span>
               <p className="text-muted-foreground">
-                Docker, AWS, Git, GitHub Actions Firebase, Git, Figma, Netlify,
-                Vercel
+                Docker, AWS, Hostinger, GitHub Actions,Firebase,
+
+              
               </p>
             </div>
+   
           </div>
         </section>
 
@@ -146,10 +148,12 @@ const ContainerDemoPage = () => {
             <div className=" border-accent pl-3">
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="font-bold text-sm text-foreground">EducatU</h3>
-                  <p className="text-xs text-muted-foreground">
+                  <h3 className="font-bold text-sm text-foreground">
+                    E-learning platforms (Planet Education Network)
+                  </h3>
+                  {/* <p className="text-xs text-muted-foreground">
                     E-Learning Platform
-                  </p>
+                  </p> */}
                 </div>
                 {/* <a 
                   href="http://35.179.130.168:5000/" 
@@ -159,7 +163,7 @@ const ContainerDemoPage = () => {
                 </a> */}
               </div>
               <p className="text-xs text-muted-foreground">
-                Led frontend development team overseeing UI implementation and
+                Lead frontend development team overseeing UI implementation and
                 component architecture for online course management.
               </p>
               {/* <div className="flex flex-wrap gap-2">
@@ -183,6 +187,7 @@ const ContainerDemoPage = () => {
                 </div>
                 <a
                   href="https://rccgjesushouse.ca/"
+                  target="_blank"
                   className="text-blue-400 font-medium text-xs hover:underline"
                 >
                   Live →
@@ -213,8 +218,7 @@ const ContainerDemoPage = () => {
                 </a> */}
               </div>
               <p className="text-xs text-muted-foreground">
-                Next.js, MongoDB, Firebase platform with Aamar Pay integration
-                and admin inventory management.
+               Developed an e-commerce platform for buying medicines, featuring inventory management, admin dashboard, and secure payment processing.
               </p>
             </div>
 
@@ -225,20 +229,20 @@ const ContainerDemoPage = () => {
                   <h3 className="font-bold text-sm text-foreground">
                     Ebook Application
                   </h3>
-                  <p className="text-xs text-muted-foreground">
+                  {/* <p className="text-xs text-muted-foreground">
                     Android eBook Platform
-                  </p>
+                  </p> */}
                 </div>
                 <a
                   href="https://play.google.com/store/apps/details?id=com.alokdhara"
+                  target="_blank"
                   className="text-blue-400 font-medium text-xs hover:underline"
                 >
                   Live →
                 </a>
               </div>
               <p className="text-xs text-muted-foreground">
-                Backend-focused Android application with secure APIs, content
-                management, and optimized data delivery.
+                Created a backend API for viewing and purchasing books, with an admin panel to manage and update book inventory.
               </p>
             </div>
 
@@ -249,9 +253,9 @@ const ContainerDemoPage = () => {
                   <h3 className="font-bold text-sm text-foreground">
                     Sportigy
                   </h3>
-                  <p className="text-xs text-muted-foreground">
+                  {/* <p className="text-xs text-muted-foreground">
                     Cricket Enthusiast Platform
-                  </p>
+                  </p> */}
                 </div>
                 {/* <a 
                   href="#" 
@@ -261,8 +265,7 @@ const ContainerDemoPage = () => {
                 </a> */}
               </div>
               <p className="text-xs text-muted-foreground">
-                React.js platform with live scores, real-time updates, and
-                community features for cricket enthusiasts.
+                Lead frontend and admin panel development for a multi-sport platform, managing events, scores, and user interactions.
               </p>
             </div>
           </div>
@@ -297,7 +300,7 @@ const ContainerDemoPage = () => {
               <div className="flex justify-between items-start">
                 <div>
                   <h4 className="font-bold text-sm text-foreground">
-                    Higher Secondary School Certificate:(HSC) Science
+                    Higher Secondary School Certificate:(HSC)
                   </h4>
                   <div className="flex gap-2">
                     <p className="text-primary font-medium text-xs">
@@ -310,6 +313,26 @@ const ContainerDemoPage = () => {
                 </div>
                 <span className="text-xs text-muted-foreground bg-muted px-2 py-0.5 rounded">
                   2017
+                </span>
+              </div>
+            </div>
+            <div className=" border-primary pl-3 mt-2">
+              <div className="flex justify-between items-start">
+                <div>
+                  <h4 className="font-bold text-sm text-foreground">
+                   Secondary School Certificate:(SSC)
+                  </h4>
+                  <div className="flex gap-2">
+                    <p className="text-primary font-medium text-xs">
+                      Institute : Kalmudanga. High School
+                    </p>
+                    <p className="text-xs text-muted-foreground">
+                     Kalmudanga, sapahar,Naogaon,Bangladesh
+                    </p>
+                  </div>
+                </div>
+                <span className="text-xs text-muted-foreground bg-muted px-2 py-0.5 rounded">
+                  2015
                 </span>
               </div>
             </div>
