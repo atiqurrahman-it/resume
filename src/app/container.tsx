@@ -2,7 +2,7 @@
 
 "use client";
 
-import { Download } from "lucide-react";
+import { Download , Github, Linkedin, Phone } from "lucide-react";
 import { useRef } from "react";
 
 const ContainerDemoPage = () => {
@@ -43,14 +43,18 @@ const ContainerDemoPage = () => {
               </p>
             </div>
             <div className="text-right text-xs space-y-0.5">
-              <p className="font-medium">Mirpur-6 Dhaka, Bangladesh</p>
-              <p> +880 179 183 5039 | +880 1518474541</p>
+              <p className="font-medium">Mirpur-6, Dhaka-1216, Bangladesh</p>
+              <p>
+                 {/* <Phone className="w-3 h-3 inline mr-1" /> */}
+                 +880 179 183 5039 | +880 1518474541</p>
               <p>atiqurrahman.cse2552@gmail.com</p>
               <div className="flex justify-end gap-3 text-primary text-xs">
                 <a href="https://www.linkedin.com/in/atiqur-cse/" target="_blank" className="hover:underline">
+                  <Linkedin className="w-3 h-3 inline mr-1" />
                   LinkedIn
                 </a>
                 <a href="https://github.com/atiqurrahman-it" target="_blank" className="hover:underline">
+                  <Github className="w-3 h-3 inline mr-1" />
                   GitHub
                 </a>
               </div>
@@ -88,7 +92,7 @@ const ContainerDemoPage = () => {
             <div>
               <span className="font-bold text-foreground">Backend:</span>
               <p className="text-muted-foreground">
-                Node.js,Express js, Python, Django
+                Express js, Python, Django
               </p>
             </div>
             <div>
@@ -123,15 +127,15 @@ const ContainerDemoPage = () => {
                     Full-Stack Developer
                   </h3>
                   <p className="text-primary font-medium text-xs">
-                    Arbree Limited
+                    Arbreesolutions
                   </p>
                 </div>
-                <span className="text-xs text-muted-foreground bg-muted px-2 py-0.5 rounded">
+                <span className="text-xs text-muted-foreground bg-gray-200 px-2 py-0.5 rounded">
                   05/2023 – Present
                 </span>
               </div>
               <p className="text-xs text-muted-foreground">
-                Mirpur DHOS ,Dhaka
+                Mirpur DOHS ,Dhaka
                 {/* Building scalable full-stack web applications using modern technologies. */}
               </p>
             </div>
@@ -280,19 +284,19 @@ const ContainerDemoPage = () => {
               <div className="flex justify-between items-start">
                 <div className="">
                   <h4 className="font-bold text-sm text-foreground">
-                    Bachelor of Science in Computer Science and Engineering
+                    Bachelor of Science in Computer Science and Engineering(B.Sc in CSE)
                   </h4>
                   <div className="flex gap-2">
                     <p className="text-primary font-medium text-xs">
                       Institute: Mohammadpur Kendriya College,
                     </p>
-                    <p className="text-xs text-muted-foreground">
-                      Mohammdapur,Dhaka, Bangladesh
+                    <p className="text-xs text-gray-500">
+                     Mohammadpur, Dhaka-1207, Bangladesh
                     </p>
                   </div>
                 </div>
-                <span className="text-xs text-muted-foreground bg-muted px-2 py-0.5 rounded">
-                  2024
+                <span className="text-xs text-muted-foreground bg-gray-200 px-2 py-0.5 rounded">
+                  2024 
                 </span>
               </div>
             </div>
@@ -300,18 +304,18 @@ const ContainerDemoPage = () => {
               <div className="flex justify-between items-start">
                 <div>
                   <h4 className="font-bold text-sm text-foreground">
-                    Higher Secondary School Certificate:(HSC)
+                    Higher Secondary School Certificate(HSC)
                   </h4>
                   <div className="flex gap-2">
                     <p className="text-primary font-medium text-xs">
-                      Institute : Sapahar govt college
+                      Institute : Sapahar govt college,
                     </p>
-                    <p className="text-xs text-muted-foreground">
-                      Sapahar, Naogaon,Bangladesh
+                    <p className="text-xs text-gray-500">
+                     Sapahar, Naogaon-6540, Bangladesh
                     </p>
                   </div>
                 </div>
-                <span className="text-xs text-muted-foreground bg-muted px-2 py-0.5 rounded">
+                <span className="text-xs text-muted-foreground bg-gray-200 px-2 py-0.5 rounded">
                   2017
                 </span>
               </div>
@@ -320,18 +324,18 @@ const ContainerDemoPage = () => {
               <div className="flex justify-between items-start">
                 <div>
                   <h4 className="font-bold text-sm text-foreground">
-                   Secondary School Certificate:(SSC)
+                   Secondary School Certificate(SSC)
                   </h4>
                   <div className="flex gap-2">
                     <p className="text-primary font-medium text-xs">
-                      Institute : Kalmudanga. High School
+                      Institute : Kalmudanga High School,
                     </p>
-                    <p className="text-xs text-muted-foreground">
-                     Kalmudanga, sapahar,Naogaon,Bangladesh
+                    <p className="text-xs text-gray-500">
+                    Kalmudanga, Sapahar, Naogaon-6540, Bangladesh
                     </p>
                   </div>
                 </div>
-                <span className="text-xs text-muted-foreground bg-muted px-2 py-0.5 rounded">
+                <span className="text-xs text-muted-foreground bg-gray-200 px-2 py-0.5 rounded">
                   2015
                 </span>
               </div>
