@@ -129,8 +129,8 @@ const ContainerDemoPage = () => {
                 Database, Cloud & Tools :
               </span>
               <p className="text-muted-foreground">
-                Docker, Amazon Web Services (AWS),Git/GitHub ,GitHub Actions,
-                CI/CD, Firebase, Hostinger, Stripe, SSLCommerz,Jest, AI-Assisted
+                Docker, Amazon Web Services (AWS), GitHub Actions, CI/CD,
+                Firebase, Hostinger, Stripe, SSLCommerz, Jest, AI-Assisted
                 Development
               </p>
             </div>
