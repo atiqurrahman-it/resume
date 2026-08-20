@@ -95,7 +95,7 @@ const ContainerDemoPage = () => {
             <div>
               <span className="font-bold text-foreground">Languages:</span>
               <p className="text-muted-foreground">
-                JavaScript (ES6+), TypeScript, Python,Object-Oriented
+                JavaScript (ES6+), TypeScript, Python, Object-Oriented
                 Programming (OOP)
               </p>
             </div>
@@ -108,27 +108,27 @@ const ContainerDemoPage = () => {
             </div>
             <div>
               <span className="font-bold text-foreground">
-                State Management & Data Fetching :
+                State Management & Data Fetching:
               </span>
               <p className="text-muted-foreground">
                 Redux, Zustand, TanStack Query, Zod
               </p>
             </div>
             <div>
-              <span className="font-bold text-foreground">Backend :</span>
+              <span className="font-bold text-foreground">Backend:</span>
               <p className="text-muted-foreground">
                 Node.js, Express.js, NestJS, REST APIs
               </p>
             </div>
             <div>
-              <span className="font-bold text-foreground">Database :</span>
+              <span className="font-bold text-foreground">Database:</span>
               <p className="text-muted-foreground">
                 MongoDB, MySQL, PostgreSQL
               </p>
             </div>
             <div>
               <span className="font-bold text-foreground">
-                Database, Cloud & Tools :
+                Database, Cloud & Tools:
               </span>
               <p className="text-muted-foreground">
                 Docker, Amazon Web Services (AWS), GitHub Actions, CI/CD,
@@ -161,7 +161,7 @@ const ContainerDemoPage = () => {
                 </span>
               </div>
               <p className="text-xs text-muted-foreground">
-                Mirpur DOHS ,Dhaka
+                Mirpur DOHS, Dhaka
                 {/* Building scalable full-stack web applications using modern technologies. */}
               </p>
             </div>
@@ -267,7 +267,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Architecture & Leadership :{" "}
+                      Architecture & Leadership: {" "}
                     </span>
                     Led the frontend team in building a full-scale online
                     university platform (offering degree programs like CSE, BBA,
@@ -279,7 +279,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      State & Data Management :{" "}
+                      State & Data Management: {" "}
                     </span>
                     Implemented TanStack Query for efficient server-state
                     caching and Zustand for global UI state, reducing redundant
@@ -290,7 +290,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Type Safety & Backend Integration :{" "}
+                      Type Safety & Backend Integration: {" "}
                     </span>
                     Enforced strict schema validation using Zod for complex
                     multi-step enrollment forms, integrating seamlessly with an
@@ -300,7 +300,7 @@ const ContainerDemoPage = () => {
                 <li className="flex gap-5">
                   <span>❖</span>
                   <p>
-                    <span className="font-bold">Team Leadership : </span>
+                    <span className="font-bold">Team Leadership: </span>
                     Managed frontend developers, conducted code reviews, and
                     created a reusable UI design system that improved sprint
                     velocity and code consistency
@@ -339,7 +339,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Backend Leadership & Architecture :{" "}
+                      Backend Leadership & Architecture: {" "}
                     </span>
                     Led backend architecture using Express.js, Prisma ORM, and
                     PostgreSQL to build a secure enterprise web platform and
@@ -350,7 +350,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Messaging & File Sharing :{" "}
+                      Messaging & File Sharing: {" "}
                     </span>
                     Built interactive dashboard services enabling admins to
                     create custom user groups, share documents, add group
@@ -362,7 +362,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Inventory & Resource Management :{" "}
+                      Inventory & Resource Management: {" "}
                     </span>
                     Engineered a multi-stage request and tracking pipeline to
                     monitor inventory needs across multiple church branches,
@@ -374,7 +374,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Full-Stack UI & Integration :{" "}
+                      Full-Stack UI & Integration: {" "}
                     </span>
                     Supported frontend development with Next.js, TanStack Query,
                     and Redux, delivering a responsive client interface
@@ -407,7 +407,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Full-Stack Architecture :{" "}
+                      Full-Stack Architecture: {" "}
                     </span>
                     Built an online single-vendor pharmacy e-commerce platform
                     using Next.js (App Router) and TypeScript for both frontend
@@ -418,18 +418,18 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Prescription & Checkout System :{" "}
+                      Prescription & Checkout System: {" "}
                     </span>
                     Developed seamless ordering workflows allowing customers to
-                    search for medicines or upload doctor prescriptions directly
-                    for direct order fulfillment.
+                    search for medicines or upload doctor prescriptions
+                    for order fulfillment.
                   </p>
                 </li>
                 <li className="flex gap-5">
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Authentication & Payments :{" "}
+                      Authentication & Payments: {" "}
                     </span>
                     Integrated Firebase Authentication for secure multi-method
                     user login and SSLCommerz payment gateway for processing
@@ -440,7 +440,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      State Management & Data Fetching: :{" "}
+                      State Management & Data Fetching: {" "}
                     </span>
                     Optimized product filtering, cart updates, and UI
                     performance using Zustand for local cart state and TanStack
@@ -474,7 +474,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Backend API Architecture :{" "}
+                      Backend API Architecture: {" "}
                     </span>
                     Designed and built RESTful backend APIs using Express.js,
                     TypeScript, and Prisma ORM for digital book viewing,
@@ -485,7 +485,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      File & Image Processing :{" "}
+                      File & Image Processing: {" "}
                     </span>
                     Integrated Multer, Sharp, pdf-lib, and compress-pdf to
                     handle cover image optimizations, secure PDF document
@@ -496,7 +496,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Security & Authentication :{" "}
+                      Security & Authentication: {" "}
                     </span>
                     Implemented secure user authentication and authorization
                     using JWT and Bcrypt password hashing to safeguard user
@@ -561,11 +561,11 @@ const ContainerDemoPage = () => {
               <div className="flex justify-between items-start">
                 <div>
                   <h4 className="font-bold text-sm text-foreground">
-                    Higher Secondary School Certificate(HSC)
+                    Higher Secondary School Certificate (HSC)
                   </h4>
                   <div className="flex gap-2">
                     <p className="text-primary font-medium text-xs">
-                      Institute : Sapahar govt college,
+                      Institute: Sapahar Govt. College,
                     </p>
                     <p className="text-xs text-gray-500">
                       Sapahar, Naogaon-6540, Bangladesh
@@ -581,11 +581,11 @@ const ContainerDemoPage = () => {
               <div className="flex justify-between items-start">
                 <div>
                   <h4 className="font-bold text-sm text-foreground">
-                    Secondary School Certificate(SSC)
+                    Secondary School Certificate (SSC)
                   </h4>
                   <div className="flex gap-2">
                     <p className="text-primary font-medium text-xs">
-                      Institute : Kalmudanga High School,
+                      Institute: Kalmudanga High School,
                     </p>
                     <p className="text-xs text-gray-500">
                       Kalmudanga, Sapahar, Naogaon-6540, Bangladesh
