@@ -171,7 +171,6 @@ const ContainerDemoPage = () => {
                 Full-Stack Software Engineer | Full-time, On-site
               </h3>
               <p className="text-primary font-medium text-xs">
-                {/* desing update this is boolen point  */}
                 <ol className="ml-10 space-y-2">
                   <li className="flex gap-5">
                     <span>❖</span>
@@ -267,7 +266,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Architecture & Leadership: {" "}
+                      Architecture & Leadership:{" "}
                     </span>
                     Led the frontend team in building a full-scale online
                     university platform (offering degree programs like CSE, BBA,
@@ -278,9 +277,7 @@ const ContainerDemoPage = () => {
                 <li className="flex gap-5">
                   <span>❖</span>
                   <p>
-                    <span className="font-bold">
-                      State & Data Management: {" "}
-                    </span>
+                    <span className="font-bold">State & Data Management: </span>
                     Implemented TanStack Query for efficient server-state
                     caching and Zustand for global UI state, reducing redundant
                     network requests across student and instructor dashboards.
@@ -290,7 +287,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Type Safety & Backend Integration: {" "}
+                      Type Safety & Backend Integration:{" "}
                     </span>
                     Enforced strict schema validation using Zod for complex
                     multi-step enrollment forms, integrating seamlessly with an
@@ -339,7 +336,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Backend Leadership & Architecture: {" "}
+                      Backend Leadership & Architecture:{" "}
                     </span>
                     Led backend architecture using Express.js, Prisma ORM, and
                     PostgreSQL to build a secure enterprise web platform and
@@ -350,7 +347,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Messaging & File Sharing: {" "}
+                      Messaging & File Sharing:{" "}
                     </span>
                     Built interactive dashboard services enabling admins to
                     create custom user groups, share documents, add group
@@ -362,7 +359,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Inventory & Resource Management: {" "}
+                      Inventory & Resource Management:{" "}
                     </span>
                     Engineered a multi-stage request and tracking pipeline to
                     monitor inventory needs across multiple church branches,
@@ -374,7 +371,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Full-Stack UI & Integration: {" "}
+                      Full-Stack UI & Integration:{" "}
                     </span>
                     Supported frontend development with Next.js, TanStack Query,
                     and Redux, delivering a responsive client interface
@@ -406,9 +403,7 @@ const ContainerDemoPage = () => {
                 <li className="flex gap-5">
                   <span>❖</span>
                   <p>
-                    <span className="font-bold">
-                      Full-Stack Architecture: {" "}
-                    </span>
+                    <span className="font-bold">Full-Stack Architecture: </span>
                     Built an online single-vendor pharmacy e-commerce platform
                     using Next.js (App Router) and TypeScript for both frontend
                     rendering and backend API routes.
@@ -418,18 +413,18 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Prescription & Checkout System: {" "}
+                      Prescription & Checkout System:{" "}
                     </span>
                     Developed seamless ordering workflows allowing customers to
-                    search for medicines or upload doctor prescriptions
-                    for order fulfillment.
+                    search for medicines or upload doctor prescriptions for
+                    order fulfillment.
                   </p>
                 </li>
                 <li className="flex gap-5">
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Authentication & Payments: {" "}
+                      Authentication & Payments:{" "}
                     </span>
                     Integrated Firebase Authentication for secure multi-method
                     user login and SSLCommerz payment gateway for processing
@@ -440,7 +435,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      State Management & Data Fetching: {" "}
+                      State Management & Data Fetching:{" "}
                     </span>
                     Optimized product filtering, cart updates, and UI
                     performance using Zustand for local cart state and TanStack
@@ -474,7 +469,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Backend API Architecture: {" "}
+                      Backend API Architecture:{" "}
                     </span>
                     Designed and built RESTful backend APIs using Express.js,
                     TypeScript, and Prisma ORM for digital book viewing,
@@ -484,9 +479,7 @@ const ContainerDemoPage = () => {
                 <li className="flex gap-5">
                   <span>❖</span>
                   <p>
-                    <span className="font-bold">
-                      File & Image Processing: {" "}
-                    </span>
+                    <span className="font-bold">File & Image Processing: </span>
                     Integrated Multer, Sharp, pdf-lib, and compress-pdf to
                     handle cover image optimizations, secure PDF document
                     generation, and compressed ebook file uploads.
@@ -496,7 +489,7 @@ const ContainerDemoPage = () => {
                   <span>❖</span>
                   <p>
                     <span className="font-bold">
-                      Security & Authentication: {" "}
+                      Security & Authentication:{" "}
                     </span>
                     Implemented secure user authentication and authorization
                     using JWT and Bcrypt password hashing to safeguard user
