@@ -131,9 +131,8 @@ const ContainerDemoPage = () => {
                 Database, Cloud & Tools:
               </span>
               <p className="text-muted-foreground">
-                Docker, Amazon Web Services (AWS), GitHub Actions, CI/CD,
-                Firebase, Hostinger, Stripe, SSLCommerz, Jest, AI-Assisted
-                Development
+                Docker, Amazon AWS (EC2,S3), GitHub Actions, CI/CD, Firebase,
+                Hostinger, Stripe, SSLCommerz, Jest, AI-Assisted Development
               </p>
             </div>
           </div>
@@ -594,16 +593,20 @@ const ContainerDemoPage = () => {
         </section>
 
         {/* Languages */}
-        {/* <section className="mb-3">
-          <h2 className="text-lg font-bold text-primary mb-2">
-            Languages
-          </h2>
-          
+        <section className="mb-3">
+          <h2 className="text-lg font-bold text-primary mb-2">Languages</h2>
+
           <div className="flex gap-5 text-xs space-y-1">
-            <p><span className="font-bold text-foreground">Bangla:</span> <span className="text-muted-foreground">Native</span></p>
-            <p><span className="font-bold text-foreground">English:</span> <span className="text-muted-foreground">Professional</span></p>
+            <p>
+              <span className="font-bold text-foreground">Bangla:</span>{" "}
+              <span className="text-muted-foreground">Native</span>
+            </p>
+            <p>
+              <span className="font-bold text-foreground">English:</span>{" "}
+              <span className="text-muted-foreground">Professional</span>
+            </p>
           </div>
-        </section> */}
+        </section>
       </div>
       <style jsx global>{`
         @media print {
