@@ -40,31 +40,33 @@ const ContainerDemoPage = () => {
                 Full-Stack Developer
               </p>
             </div>
-            <div className="text-right text-xs space-y-0.5">
+            <div className="text-right text-xs space-y-1">
               <p className="font-medium">Mirpur-6, Dhaka-1216, Bangladesh</p>
               <p>
                 {/* <Phone className="w-3 h-3 inline mr-1" /> */}
                 +880 179 183 5039 | +880 1518474541
               </p>
               <p>atiqurrahman.cse2552@gmail.com</p>
-              <div className="flex justify-end gap-3 text-primary text-xs">
+              <p>
+                <Linkedin className="w-3 h-3 inline mr-1" />
                 <a
                   href="https://www.linkedin.com/in/atiqur-cse/"
                   target="_blank"
                   className="hover:underline"
                 >
-                  <Linkedin className="w-3 h-3 inline mr-1" />
-                  LinkedIn
+                  linkedin.com/in/atiqur-cse
                 </a>
+              </p>
+              <p>
+                <Github className="w-3 h-3 inline mr-1" />
                 <a
                   href="https://github.com/atiqurrahman-it"
                   target="_blank"
                   className="hover:underline"
                 >
-                  <Github className="w-3 h-3 inline mr-1" />
-                  GitHub
+                  github.com/atiqurrahman-it
                 </a>
-              </div>
+              </p>
             </div>
           </div>
         </div>
